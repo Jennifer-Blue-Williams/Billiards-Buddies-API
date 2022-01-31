@@ -1,0 +1,66 @@
+{
+    "players": [
+        {
+            "id": 1,
+            "name": "Blue Williams",
+            "email": "blue@blue.com"
+        },
+        {
+            "id": 2,
+            "name": "Jen Childs",
+            "email": "jen@childs.com"
+        },
+        {
+            "id": 3,
+            "name": "Jeanette Lee",
+            "email": "Jeanette@blackwidow.com"
+        }
+    ],
+
+    "venues": [
+        {   "id": 1,
+            "name": "JOB Billiards",
+            "location": "900 Gallatin Pike South",
+            "numOfTables": 21
+        },
+
+        {   "id": 2,
+            "name": "Cobra",
+            "location": "2511 Gallatin Avenue",
+            "numOfTables": 3
+        },
+
+        {   "id": 3,
+            "name": "H-Cues Upstairs Pool Room",
+            "location": "1602 21st Ave S",
+            "numOfTables": 4
+        },
+
+        {   "id": 4,
+            "name": "Mickey's Tavern",
+            "location": "2907 Gallatin Pike",
+            "numOfTables": 1
+        }
+    ],
+
+    "games": [
+        {
+            "id": 1,
+            "playerId": 1,
+            "opponentName": "Black Widow",
+            "venueId": 1,
+            "Win": true,
+            "matchDate": "01/15/2022"
+        },
+
+        {
+            "id": 1,
+            "playerId": 2,
+            "opponentName": "Blue Williams",
+            "venueId": 3,
+            "Win": false,
+            "matchDate": "01/22/2022"
+        }
+    ]
+
+}
