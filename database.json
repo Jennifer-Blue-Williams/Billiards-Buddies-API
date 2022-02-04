@@ -1,66 +1,140 @@
 {
-    "players": [
-        {
-            "id": 1,
-            "name": "Blue Williams",
-            "email": "blue@blue.com"
-        },
-        {
-            "id": 2,
-            "name": "Jen Childs",
-            "email": "jen@childs.com"
-        },
-        {
-            "id": 3,
-            "name": "Jeanette Lee",
-            "email": "Jeanette@blackwidow.com"
-        }
-    ],
-
-    "venues": [
-        {   "id": 1,
-            "name": "JOB Billiards",
-            "location": "900 Gallatin Pike South",
-            "numOfTables": 21
-        },
-
-        {   "id": 2,
-            "name": "Cobra",
-            "location": "2511 Gallatin Avenue",
-            "numOfTables": 3
-        },
-
-        {   "id": 3,
-            "name": "H-Cues Upstairs Pool Room",
-            "location": "1602 21st Ave S",
-            "numOfTables": 4
-        },
-
-        {   "id": 4,
-            "name": "Mickey's Tavern",
-            "location": "2907 Gallatin Pike",
-            "numOfTables": 1
-        }
-    ],
-
-    "games": [
-        {
-            "id": 1,
-            "playerId": 1,
-            "opponentName": "Black Widow",
-            "venueId": 1,
-            "Win": true,
-            "matchDate": "01/15/2022"
-        },
-
-        {
-            "id": 1,
-            "playerId": 2,
-            "opponentName": "Blue Williams",
-            "venueId": 3,
-            "Win": false,
-            "matchDate": "01/22/2022"
-        }
-    ]
-
+  "players": [
+    {
+      "id": 1,
+      "name": "Blue Williams",
+      "email": "blue@blue.com"
+    },
+    {
+      "id": 2,
+      "name": "Jen Childs",
+      "email": "jen@childs.com"
+    },
+    {
+      "id": 3,
+      "name": "Jeanette Lee",
+      "email": "jeanette@blackwidow.com"
+    },
+    {
+      "id": 4,
+      "name": "Efren Reyes",
+      "email": "efren@magician.com"
+    }
+  ],
+  "venues": [
+    {
+      "id": 1,
+      "name": "JOB Billiards",
+      "location": "900 Gallatin Pike South",
+      "numOfTables": 21
+    },
+    {
+      "id": 2,
+      "name": "Cobra",
+      "location": "2511 Gallatin Avenue",
+      "numOfTables": 3
+    },
+    {
+      "id": 3,
+      "name": "H-Cues Upstairs Pool Room",
+      "location": "1602 21st Ave S",
+      "numOfTables": 4
+    },
+    {
+      "id": 4,
+      "name": "Mickey's Tavern",
+      "location": "2907 Gallatin Pike",
+      "numOfTables": 1
+    }
+  ],
+  "games": [
+    {
+      "id": 1,
+      "playerId": 1,
+      "opponentName": "Black Widow",
+      "venueId": 1,
+      "Win": true,
+      "matchDate": "01/15/2022"
+    },
+    {
+      "id": 2,
+      "playerId": 2,
+      "opponentName": "Blue Williams",
+      "venueId": 3,
+      "Win": false,
+      "matchDate": "01/22/2022"
+    },
+    {
+      "id": 3,
+      "playerId": 3,
+      "opponentName": "Blue Williams",
+      "venueId": 2,
+      "Win": false,
+      "matchDate": "01/27/2022"
+    },
+    {
+      "id": 4,
+      "playerId": 4,
+      "opponentName": "Jen Childs",
+      "venueId": 4,
+      "Win": false,
+      "matchDate": "01/28/2022"
+    },
+    {
+      "id": 5,
+      "playerId": 1,
+      "opponentName": "Efren Reyes",
+      "venueId": 1,
+      "Win": false,
+      "matchDate": "01/31/2022"
+    },
+    {
+      "id": 6,
+      "playerId": 2,
+      "opponentName": "Jason Sullivan",
+      "venueId": 4,
+      "Win": true,
+      "matchDate": "01/19/2022"
+    },
+    {
+      "id": 7,
+      "playerId": 3,
+      "opponentName": "Blue Williams",
+      "venueId": 3,
+      "Win": false,
+      "matchDate": "01/23/2022"
+    },
+    {
+      "id": 8,
+      "playerId": 4,
+      "opponentName": "Carolyn Miller",
+      "venueId": 2,
+      "Win": false,
+      "matchDate": "01/22/2022"
+    },
+    {
+      "id": 9,
+      "playerId": 1,
+      "opponentName": "Tall Paul",
+      "venueId": 1,
+      "Win": false,
+      "matchDate": "01/18/2022"
+    },
+    {
+      "id": 10,
+      "playerId": 1,
+      "opponentName": "Pennywise Clown",
+      "venueId": 2,
+      "Win": false,
+      "matchDate": "01/19/2022"
+    },
+    {
+      "id": 11,
+      "playerId": 1,
+      "opponentName": "Hannibal Lecter",
+      "venueId": 2,
+      "Win": false,
+      "matchDate": "02/10/2022"
+    }
+  ]
 }
